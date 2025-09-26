@@ -24,6 +24,15 @@ class Operaciones:
 
     def potencia(self):
         self.resultado = "La potencia de " + str(self.num1) + " elevado a la " + str(self.num2) + " es igual a " + str(self.num1**self.num2)
+
+    def mayorque(self):
+        if(self.num1 > self.num2):
+            self.resultado = "El numero " + str(self.num1) + "es mayor que " + str(self.num2)
+
+        else:
+            self.resultado = "El numero " + str(self.num2) + "es mayor que " + str(self.num1)
+            print('hola')
+
     
     def raiz(self):
         self.resultado = "La raiz de " + str(self.num1) + " a la " + str(self.num2) + " es igual a " + str(self.num1**(1/self.num2))
