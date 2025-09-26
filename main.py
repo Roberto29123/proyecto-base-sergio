@@ -5,3 +5,6 @@ def main():
     op.leerNumeros()
     op.potencia()
     op.mostrarResultado()
+
+if __name__ == "__main__":
+    main()
